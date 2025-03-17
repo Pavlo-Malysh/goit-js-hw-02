@@ -1,6 +1,6 @@
 
 function formatMessage(message, maxLength) {
-    widthStr = message.length
+    let widthStr = message.length
     if (widthStr <= maxLength) {
         return message
     } else if (widthStr > maxLength) {
